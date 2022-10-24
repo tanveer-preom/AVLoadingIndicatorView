@@ -2,12 +2,13 @@ package com.wang.avi.sample;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.GridLayoutManager;
-import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.view.ViewGroup;
+
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.GridLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.wang.avi.AVLoadingIndicatorView;
 
@@ -15,7 +16,7 @@ import com.wang.avi.AVLoadingIndicatorView;
  * Created by Jack Wang on 2016/8/5.
  */
 
-public class SampleActivity extends AppCompatActivity{
+public class SampleActivity extends AppCompatActivity {
 
     private RecyclerView mRecycler;
 
